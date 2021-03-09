@@ -1,7 +1,6 @@
 // add whatever parameters you deem necessary
 function countPairs(nums, target) {
   nums.sort((a, b) => Number(a) - Number(b))
-  console.log("sorted nums:", nums)
   let left = 0
   let right = nums.length - 1
   let total = 0
